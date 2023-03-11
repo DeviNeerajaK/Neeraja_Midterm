@@ -1,0 +1,170 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+	  box-sizing: border-box;
+	}
+	
+  .column {
+	float: left;
+	width: 20%;
+	padding: 0 10px;
+	font-size: small;
+	max-height: max-content;
+  }
+
+  .column1 {
+	width: auto;
+	padding: 0 10px;
+	font-size: small;
+	height: auto;
+	
+  }
+  
+  .row1 {
+	margin: 0 -5px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: auto;
+	width: auto; 
+  }
+  
+.row {margin: 0 -5px;}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  .grid{
+	display: grid;
+	width: auto;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 1200px) {
+	.column {
+	  width: auto;
+	  display: block;
+	  margin-bottom: 20px;
+	  height: auto;
+	}
+	.grid1{
+		display: grid;
+		width: auto;	
+	}
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(202, 21, 21, 0.2);
+		padding: 16px;
+		text-align: center;
+		background-color: #f1f1f1;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
+		width: auto;
+		height:auto;
+	  }
+	  .card1 {
+		box-shadow: 0 4px 8px 0 rgba(202, 21, 21, 0.2);
+		padding: 16px;
+		text-align: center;
+		background-color: #f1f1f1;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
+		width: auto;
+		height: 120px;
+	  }
+  }
+  
+  /* Style the counter cards */
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(202, 21, 21, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	width: auto;
+	height: 200px;
+  }
+   .card1 {
+	box-shadow: 0 4px 8px 0 rgba(202, 21, 21, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	width: auto;
+	height: auto;
+  }
+ ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			  }
+			  
+			  li {
+				float: left;
+			  }
+			  
+			  li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			  }
+			  
+			  li a:hover {
+				background-color: #111;
+			  }
+  
+		  body {
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  height: 100%; 
+			  max-height: 100%; 
+			  font-family:Sans-serif;
+			  line-height: 1.5em;
+		  }
+		  
+		  #header {
+			  /* position: absolute; */
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 300px;
+			  /* overflow: auto; * / /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+			  background: #94948d;
+		  }
+		  
+		  
+		  
+		  main {
+			  background: #d3cbcc;
+		  }
+		  
+		  .bold {
+			  font-weight: bold;
+			  font-size:30px;
+		  }
+
+		  img {
+			padding: 16px;
+			width:  200px;
+			height: 200px;
+			object-fit: cover;
+		}
+		.p1{
+			text-align: justify;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
